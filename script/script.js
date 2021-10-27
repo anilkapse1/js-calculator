@@ -29,7 +29,7 @@ action.forEach((val,idx)=>{
         if(operation.includes(innerText)){
            addOp(innerText);
         }
-        else if(innerText==='X'){
+        else if(innerText==='CE'){
             subVal();
         }
         else if(innerText==='cl'){
